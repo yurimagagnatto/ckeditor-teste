@@ -4,6 +4,14 @@ import React, { Component } from 'react';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import Editor from 'ckeditor5-custom-build/build/ckeditor';
 
+// // NOTE: We use editor from source (not a build)!
+// import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+
+// import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
+// import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+// import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+// import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
+
 const editorConfiguration = {
   toolbar: [ 'bold', 'italic', 'alignment' ]
 };
